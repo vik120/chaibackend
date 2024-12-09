@@ -1,0 +1,18 @@
+{
+  "name": "chaibackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "git",
+    "express",
+    "mongoose"
+  ],
+  "author": "vikas with chai",
+  "license": "ISC",
+  "description": ""
+}
