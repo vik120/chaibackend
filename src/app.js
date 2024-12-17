@@ -22,7 +22,10 @@ app.use(cookieParser())
 
 // Routes
 import userRouter  from "./routes/user.routes.js";
+import errorHandler from "./middleware/errorhandling.middleware.js";
 
 // Routes decleartion
 app.use('/api/v1/users', userRouter )
+
+app.use(errorHandler)
 export default app
